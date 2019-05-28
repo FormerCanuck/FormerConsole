@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FCConsole:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FCConsole_jar</output-path>
+    <root id="archive" name="FCConsole.jar">
+      <element id="module-output" name="FCConsole" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
