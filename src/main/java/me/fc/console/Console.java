@@ -35,7 +35,7 @@ public class Console {
 
     private JMenuBar menuBar = new JMenuBar();
 
-    public Console(String consoleName, int closeOperation) {
+    public Console(String consoleName) {
         setupSettings();
 
         try {
@@ -49,7 +49,7 @@ public class Console {
         springLayout = new SpringLayout();
         frame.setLayout(springLayout);
         frame.setTitle(consoleName);
-        frame.setDefaultCloseOperation(closeOperation);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         frame.addWindowListener(new WindowAdapter() {
             @Override
@@ -127,10 +127,6 @@ public class Console {
         frame.setVisible(true);
 
         commandManager = new CommandManager(this);
-    }
-
-    public Console(String consoleName) {
-        new Console(consoleName, JFrame.EXIT_ON_CLOSE);
     }
 
     public static void main(String[] args) {
