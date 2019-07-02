@@ -6,10 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b36eb8-78b1-4a18-96a7-5b1d1bb4830c" name="Default Changelist" comment="Removing constructor">
+    <list default="true" id="60b36eb8-78b1-4a18-96a7-5b1d1bb4830c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FCConsole_jar/FCConsole.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FCConsole_jar/FCConsole.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/fc/console/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/fc/console/Console.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/fc/console/Console$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/fc/console/Console$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/fc/console/Console$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/fc/console/Console$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/fc/console/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/fc/console/Console.class" afterDir="false" />
@@ -31,12 +30,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/Console.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="550">
+              <caret line="197" selection-start-line="197" selection-end-line="197" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5617#5618#0" expanded="true" />
                 <element signature="e#5636#5637#0" expanded="true" />
+                <element signature="e#6594#6595#0" expanded="true" />
+                <element signature="e#6638#6639#0" expanded="true" />
                 <element signature="e#7743#7744#0" expanded="true" />
                 <element signature="e#7794#7795#0" expanded="true" />
               </folding>
@@ -56,9 +57,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>COLOR</find>
-      <find>print</find>
       <find>text</find>
       <find>defa</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,9 +215,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534501405237" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FormerBot" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -267,14 +268,20 @@
       <option name="project" value="LOCAL" />
       <updated>1559113349051</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed it so the console now uses the onWindowClose method. This is useful for if you want to make another console but allow it to close without stopping the whole program.">
+      <created>1562040083033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562040083033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="706" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24676375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24676375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -283,7 +290,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2979094" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2979094" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,7 +298,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32752612" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -305,18 +312,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removing constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing constructor" />
+    <MESSAGE value="Changed it so the console now uses the onWindowClose method. This is useful for if you want to make another console but allow it to close without stopping the whole program." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed it so the console now uses the onWindowClose method. This is useful for if you want to make another console but allow it to close without stopping the whole program." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FCConsole.iml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/command/commands/List.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/command/commands/ColorMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -378,14 +379,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/command/commands/ColorMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="550">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5617#5618#0" expanded="true" />
             <element signature="e#5636#5637#0" expanded="true" />
+            <element signature="e#6594#6595#0" expanded="true" />
+            <element signature="e#6638#6639#0" expanded="true" />
             <element signature="e#7743#7744#0" expanded="true" />
             <element signature="e#7794#7795#0" expanded="true" />
           </folding>
