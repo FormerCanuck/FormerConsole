@@ -49,7 +49,7 @@ public class Console {
         springLayout = new SpringLayout();
         frame.setLayout(springLayout);
         frame.setTitle(consoleName);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         frame.addWindowListener(new WindowAdapter() {
             @Override
@@ -129,10 +129,6 @@ public class Console {
         commandManager = new CommandManager(this);
     }
 
-    public static void main(String[] args) {
-        new Console("Testing");
-    }
-
     private void setupSettings() {
         settings = new ConfigFile("settings");
         if (!settings.exists()) {
@@ -161,7 +157,7 @@ public class Console {
     }
 
     public void onWindowClose(WindowEvent e) {
-        // This is just for applications using
+        System.exit(0);
     }
 
     private void changeTextColor(Color color) {
@@ -239,6 +235,10 @@ public class Console {
 
     public void error(String s) {
         println(s, new Color(255, 155, 155));
+    }
+
+    public void info(String s) {
+        println(s, new Color(244, 179, 66));
     }
 
     public void scrollToTop() {
