@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b36eb8-78b1-4a18-96a7-5b1d1bb4830c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FCConsole_jar/FCConsole.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FCConsole_jar/FCConsole.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/fc/console/Console$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/fc/console/Console$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/fc/console/Console$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/fc/console/Console$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/fc/console/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/fc/console/Console.class" afterDir="false" />
-    </list>
+    <list default="true" id="60b36eb8-78b1-4a18-96a7-5b1d1bb4830c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,16 +24,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/Console.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="197" selection-start-line="197" selection-end-line="197" />
+            <state relative-caret-position="203">
+              <caret line="172" column="43" lean-forward="true" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5617#5618#0" expanded="true" />
-                <element signature="e#5636#5637#0" expanded="true" />
-                <element signature="e#6594#6595#0" expanded="true" />
-                <element signature="e#6638#6639#0" expanded="true" />
-                <element signature="e#7743#7744#0" expanded="true" />
-                <element signature="e#7794#7795#0" expanded="true" />
+                <element signature="e#5647#5648#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -209,6 +198,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +208,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,13 +265,20 @@
       <option name="project" value="LOCAL" />
       <updated>1562040083033</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated to Java jdk 12">
+      <created>1562093673500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562093673500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="706" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24676375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25080907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,7 +310,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removing constructor" />
     <MESSAGE value="Changed it so the console now uses the onWindowClose method. This is useful for if you want to make another console but allow it to close without stopping the whole program." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed it so the console now uses the onWindowClose method. This is useful for if you want to make another console but allow it to close without stopping the whole program." />
+    <MESSAGE value="Updated to Java jdk 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to Java jdk 12" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FCConsole.iml" />
@@ -366,19 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/TestConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/TestConsole.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/command/commands/ColorMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -388,16 +374,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/fc/console/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        <state relative-caret-position="203">
+          <caret line="172" column="43" lean-forward="true" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5617#5618#0" expanded="true" />
-            <element signature="e#5636#5637#0" expanded="true" />
-            <element signature="e#6594#6595#0" expanded="true" />
-            <element signature="e#6638#6639#0" expanded="true" />
-            <element signature="e#7743#7744#0" expanded="true" />
-            <element signature="e#7794#7795#0" expanded="true" />
+            <element signature="e#5647#5648#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -461,7 +443,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
